@@ -1,18 +1,26 @@
 ---
-title: Documentation
-next: first-page
+title: Introduction
+next: quickstart
 ---
 
-This is a demo of the theme's documentation layout.
+Hello there 👋  
+Welcome to Booty's documentation page!
 
-## Hello, World!
 
-```go {filename="main.go"}
-package main
+## Who is Booty?
 
-import "fmt"
+Booty is a **moderation bot** for removing inactive members, which you can filter by 'x' days.
 
-func main() {
-    fmt.Println("Hello, World!")
-}
-```
+
+## Features
+
+Booty kicks inactive members after x days. If a member:
+
+-   Hasn't messaged in x days.
+
+-   Did not join a voice room.
+
+-   Did not put any emoji reaction on a message.
+
+
+You can specify the number of days and grant access for the slash commands (Booty requires kick permissions). Booty will track your members' activity while using minimal data.

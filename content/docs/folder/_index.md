@@ -1,8 +1,9 @@
 ---
 title: Folder
 type: docs
-prev: docs/first-page
+prev: docs/quickstart
 next: docs/folder/leaf
+draft: true
 sidebar:
   open: true
 ---
