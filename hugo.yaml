@@ -1,5 +1,7 @@
 # Hugo configuration file
-title: My Site
+title: Booty bot
+
+enableGitInfo: true
 
 # import hextra as module
 module:
@@ -18,29 +20,23 @@ markup:
 
 menu:
   main:
+    - name: Add bot ↗
+      weight: 1
+      url: "https://discord.com/oauth2/authorize?client_id=1028991500400472074&permissions=2147483650&scope=bot"
     - name: Docs
       pageRef: /docs
-      weight: 1
+      weight: 2
     - name: About
       pageRef: /about
-      weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
       weight: 3
-    - name: Search
+    - name: Discord ↗
+      url: "https://discord.gg/kE4s84bRmD"
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
-    - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
-      params:
-        icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
+
 
 params:
   navbar:
@@ -49,8 +45,15 @@ params:
 
   footer:
     displayCopyright: false
-    displayPoweredBy: true
+    displayPoweredBy: false
 
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+
+  theme:
+    default: system
+    displayToggle: true
+
+  displayUpdatedDate: true
+  dateFormat: "2 January, 2006"
