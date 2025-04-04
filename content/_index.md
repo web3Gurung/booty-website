@@ -1,9 +1,10 @@
 ---
-title: My Site
+title: Booty bot
 toc: false
 ---
 
-This is the landing page.
+Home website of Booty bot. Prune inactive members with 1 command! Kick users who do not participate for "x" days.
+
 
 ## Explore
 
@@ -14,4 +15,4 @@ This is the landing page.
 
 ## Documentation
 
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+For more information, visit [booty's docs](https://web3gurung.github.io/booty-website/docs).
